@@ -1,4 +1,5 @@
-<!-- # k8s
+
+k8s
 
  Join the two Kube worker nodes to the cluster
 
@@ -21,3 +22,6 @@
 ####################################################################################################
 echo "net.bridge.bridge-nf-call-iptables=1" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p -->
+
+
+
