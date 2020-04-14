@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: it-incloud/my-jenkins-image:1.0
+          image: itincloud/my-jenkins-image:1.0
           env:
             - name: JAVA_OPTS
               value: -Djenkins.install.runSetupWizard=false
