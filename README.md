@@ -26,3 +26,5 @@ sudo sysctl -p -->
 
 
 
+docker build -t itincloud/jenkins-image:1.0 .
+docker push itincloud/jenkins-image:1.0
