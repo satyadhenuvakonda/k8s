@@ -36,5 +36,7 @@ sudo apt-get update
 sudo apt-get install -y kubelet=1.12.7-00 kubeadm=1.12.7-00 kubectl=1.12.7-00
 sudo apt-mark hold kubelet kubeadm kubectl
 
+kubeadm join 172.31.29.36:6443 --token ypkxqi.uqrx79np6l1hwmlt --discovery-token-ca-cert-hash sha256:0f8882eac73aca0404b3198500d317334877a9dded8b9a36074771eb93b0df6e
+
 echo "net.bridge.bridge-nf-call-iptables=1" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
