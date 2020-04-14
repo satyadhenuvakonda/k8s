@@ -1,4 +1,5 @@
-
+Make the k8s-master-install.sh script executable and execute it. 
+NOTE: Read below before running the script. Mainly 
 k8s
 
  Join the two Kube worker nodes to the cluster
